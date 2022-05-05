@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <title>SEPHETHO SA SETLAMA-TLAMA </title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .border img {
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+		
+    </style>
+</head>
+
+<body background="{{url_for('static',filename = 'images/Back.jpg')}}">
+
+
+
+    <div>
+        <h1 style="text-align:center;font-size:4rem">MOLEMO LE MOSEBETSIO OA SEMELA SENA</h1>
+    </div>
+
+   <br>
+   <br>
+
+
+    <div class="container my-2">
+        <div class="row mb-5">
+
+            <div class="col-sm" style="margin-bottom: 23px;">
+                <span class="border border-primary">
+                    <img src="{{url_for('static',filename = 'images/H.jpg' )}}" alt="User Image" style="width:500px;height:500px;">
+                    
+
+                </span>
+            </div>
+
+            <div class="col-sm">
+
+                <div>
+                    <h1 style="padding: 15px; background-color: rgb(15, 15, 15); color: white;"
+                        class="text-center mb-5 content-h1 rounded">
+                        {{pred_output}} </h1>
+                </div>
+                <div class="details">
+					
+					<h4><b>Botanic name: </b> </h4>
+                    <h6>Asparagus asparagoides (L.) W.Wight (Asparagaceae </h6>
+                    <h4><b>English name:</b></h4>
+                    <h6>Cape smilax, African asparagus smilax, baby smilax, bridal creeper, bridal veil creeper.</br></br></h6>
+                    <h4><b>Ts'ebeliso ea sesotho:</b></h4>
+                    <h6>Genital warts and ulcers, excessive sweating with unpleasant smell.</br></br></h6>
+                    <h4><b>Mokhoa t'sebeliso:</b></h4>
+                    <h6>Roots.Crush & boil</br></br></h6>
+                    <h4><b>Tlhaloso:</b></h4>
+                    <h6>Asparagus asparagoides is an herbaceous, scrambling or climbing, much-branched perennial with twisting, wiry, spineless stems that can grow up to 3 m in length. Roots are rhizomatous and form numerous root tubers. It has decorative shiny green leaves that are not true leaves but phylloclades or ‘leaf-like branches’. These structures are flattened stems that resemble leaves and are 25–40 mm long and 8–20 mm wide. Flowering usually occurs in winter or early spring (July to September). Small, 6–10 mm long, greenish white, hanging, fragrant flowers are borne singly in the axils. The fruit is a globose, sometimes sticky berry, 5–10 mm in diameter,   which is red when mature in early summer. Each berry usually contains a few, shiny, black seeds that are egg-shaped or rounded.</br></br></h6>
+                    <h4><b>Bolulo:</b></h4>
+                    <h6>It ranges from southern Africa, northwards to tropical Africa. It is widespread and common in forests, bushveld, woodlands, along river banks and in bush, in all the provinces of South Africa and in Namibia, Lesotho and Swaziland.
+It has naturalized in parts of southern Europe, California, Hawaii, Australia and New Zealand, and is a listed invasive or environmental weed in some countries.</br></br></h6>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

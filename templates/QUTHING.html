@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <title>SEPHETHO SA SEMELA SENA</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .border img {
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+		
+    </style>
+</head>
+
+<body background="{{url_for('static',filename = 'images/Back.jpg')}}">
+
+
+
+    <div>
+        <h1 style="text-align:center;font-size:4rem">MELEMO LE MESEBETSI EA SEMELA SENA</h1>
+    </div>
+
+   <br>
+   <br>
+
+
+    <div class="container my-2">
+        <div class="row mb-5">
+
+            <div class="col-sm" style="margin-bottom: 23px;">
+                <span class="border border-primary">
+                    <img src="{{url_for('static',filename = 'images/C.jpg' )}}" alt="User Image" style="width:500px;height:500px;">
+                    
+
+                </span>
+            </div>
+
+            <div class="col-sm">
+
+                <div>
+                    <h1 style="padding: 15px; background-color: rgb(15, 15, 15); color: white;"
+                        class="text-center mb-5 content-h1 rounded">
+                        {{pred_output}} </h1>
+                </div>
+                <div class="details">
+					
+					<h4><b> Botanic name: </b> </h4>
+                     <h6>Aloe ferox Mill. (Aloaceae)
+                        .</br></br>
+                </h6>
+                    <h4><b>English name:</b></h4>
+                    <h6>Bitter aloe.</br></br></h6>
+                    <h4><b>Ts'ebeliso ea sesotho:</b></h4>
+                    <h6>Heartburn and laxative.</br></br></h6>
+                    <h4><b>Mokhoa t'sebeliso:</b></h4>
+                    <h6>Mix juice extracts with water.</br></br></h6>
+                    <h4><b>Tlhaloso:</b></h4>
+                    <h6>The bitter aloe will reach 2-3 metres in height with the leaves arranged in a rosette. The old leaves remain after they have dried, forming a "petticoat" on the stem. The leaves are a dull green, sometimes with a slightly blue look to them. They may also have a reddish tinge. The A. candelabrum form has an elegant shape with the leaf tips curving slightly downwards. The spines along the leaf edge are reddish in colour. Spines may also be present on upper and lower surfaces of the leaves as well. Young plants tend to be very spiny.
+The flowers are carried in a large candelabra-like flower-head. There are usually between five and eight branches, each carrying a spike-like head of many flowers. Flower colour varies from yellowy-orange to bright red. A. candelabrum has six to twelve branches, and the flowers have their inner petals tipped with white.
+Flowering occurs between May and August, but in colder parts of the country this may be delayed until September. This aloe forms a beautiful display and attracts many bird species such as sunbirds, weavers, glossy starlings and mousebirds. Insects also visit the flowers which in turn brings yet more birds to your garden. In natural areas, monkeys and baboons will raid the aloes for nectar. Visitors usually leave adorned with large patches of pollen, often causing confusion amongst birdwatchers! It is an excellent garden specimen plant and is adaptable to many conditions (Aloe ferox ).</br></br></h6>
+                    <h4><b>Bolulo:</b></h4>
+                    <h6>Aloe ferox is a tall single-stemmed aloe which has a wide distribution, ranging over 1000 km from the south western Cape through to southern KwaZulu-Natal. It is also found in the south eastern corner of the Free State and southern Lesotho.
+It occurs in a broad range of habitats as a result of the wide distribution range. It is common on rocky hill slopes, often in very large numbers, where it creates a stunning winter display. In the south western Cape it grows in grassy fynbos, and in the southern and Eastern Cape it may also be found on the edges of the karoo. A. ferox grows both in the open and in bushy areas. The plants may also differ physically from area to area due to local conditions - a south east Free State winter is quite different to that of the Eastern Cape coast.</br></br></h6>
+                    
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

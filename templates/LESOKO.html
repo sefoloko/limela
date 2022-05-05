@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <title>SEPHETHO SA SEMELA</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .border img {
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+		
+    </style>
+</head>
+
+<body background="{{url_for('static',filename = 'images/Back.jpg')}}">
+
+
+
+    <div>
+        <h1 style="text-align:center;font-size:4rem">MOLEMO LE MOSEBETSI OA SEMELA SENA</h1>
+    </div>
+
+   <br>
+   <br>
+
+
+    <div class="container my-2">
+        <div class="row mb-5">
+
+            <div class="col-sm" style="margin-bottom: 23px;">
+                <span class="border border-primary">
+                    <img src="{{url_for('static',filename = 'images/G.jpg' )}}" alt="User Image" style="width:500px;height:500px;">
+                    
+
+                </span>
+            </div>
+
+            <div class="col-sm">
+
+                <div>
+                    <h1 style="padding: 15px; background-color: rgb(15, 15, 15); color: white;"
+                        class="text-center mb-5 content-h1 rounded">
+                        {{pred_output}} </h1>
+                </div>
+                <div class="details">
+					
+					<h4><b>Botanic name: </b> </h4>
+                    <h6>
+					<br>Alepidea amatymbica Eckl. & Zeyh. (Apiaceae)
+                    </h6>
+                     </h6>
+                    <h4><b>English name:</b></h4>
+                    <h6>giant alepidea, larger tinsel flower.</br></br></h6>
+                    <h4><b>Ts'ebeliso ea sesotho:</b></h4>
+                    <h6>Colds and flu, asthma, chest pain, rheumatism, wash divining bones; abdominal cramps.</br></br></h6>
+                    <h4><b>Mokhoa t'sebeliso:</b></h4>
+                    <h6>Root bulb.Boil powder</br></br></h6>
+                    <h4><b>Tlhaloso:</b></h4>
+                    <h6>Alepidea amatymbica is a robust, erect perennial herb, up to 2 m tall. The stem is hollow, grooved, branched, with a large, aromatic root stock of numerous slightly fleshy roots up to 25 mm in diameter. The leaves are triangular, simple, up to 480 mm long, mostly basal forming a loose rosette but also spread up the stem. Basal leaves are distinctly petiolate; leaf stalks are 200 mm long and 10 mm in diameter, margin prominently toothed, each tooth ending in a long bristle. Leaves on the stem have no stalks.</br></br></h6>
+                    <h4><b>Bolulo:</b></h4>
+                    <h6>In its natural state Alepidea amatymbica is distributed along the Amathole Mountains in the Eastern Cape, extending north-eastwards to southern KwaZulu-Natal and along the eastern border of Lesotho, and northwards to the Free State, Swaziland, Mpumalanga, Limpopo and eastern Zimbabwe. It is usually found in damp grassland near streams from 1 520 to 2 590 m altitude. It is common in the summer rainfall grasslands of southern Africa.</br></br></h6>
+                    
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

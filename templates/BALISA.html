@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <title>SEPHETHO SA SETLAMA-TLAMA</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .border img {
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+		
+    </style>
+</head>
+
+<body background="{{url_for('static',filename = 'images/Back.jpg')}}">
+
+
+
+    <div>
+        <h1 style="text-align:center;font-size:4rem">MOLEMO LE MOSEBETSI OA SEMELA SENA</h1>
+    </div>
+
+   <br>
+   <br>
+
+
+    <div class="container my-2">
+        <div class="row mb-5">
+
+            <div class="col-sm" style="margin-bottom: 23px;">
+                <span class="border border-primary">
+                    <img src="{{url_for('static',filename = 'images/L.jpg' )}}" alt="User Image" style="width:500px;height:500px;">
+                    
+
+                </span>
+            </div>
+
+            <div class="col-sm">
+
+                <div>
+                    <h1 style="padding: 15px; background-color: rgb(15, 15, 15); color: white;"
+                        class="text-center mb-5 content-h1 rounded">
+                        {{pred_output}} </h1>
+                </div>
+                <div class="details">
+					
+					<h4><b>Botanic name: </b> </h4>
+                    <h6>Bulbine narcissifolia Salm-Dyck (Asphodelaceae
+						        </h6>
+                     </h6>
+                    <h4><b>English name:</b></h4>
+                    <h6>strap-leafed bulbine, snake flower.</br></br></h6>
+                    <h4><b>Ts'ebeliso ea sesotho:</b></h4>
+                    <h6>Cleanses kidney, digestive problems, bloating, heartburn, cleanses blood, dilates blood vessels, promotes duiresis, burning urine .</br></br></h6>
+                    <h4><b>Mokhoa t'sebeliso:</b></h4>
+                    <h6>Roots.crush & boil</br></br></h6>
+                    <h4><b>Tlhaloso:</b></h4>
+                    <h6>Bulbine narcissifolia is a succulent, stemless, perennial herb with a rhizomatous base. Plants grow singly or in small clumps. The grey-green leaves are strap-shaped, laxly twisted, semi-succulent and up to 350mm long with a yellowish exudate. Several dense, many-flowered, spike-like inflorescences are formed from a plant during spring and summer. Flowering occurs mainly during February to April and September to November. The compact inflorescences are erect and up to 500mm tall with prominent white, membranous bracts covering the flower buds. The bright yellow flowers are star-shaped with bearded stamens and mature from the bottom of the inflorescence. The stalks of the old flowers and fruit are straight, erect and almost completely adpressed against the central axis of the inflorescence.</br></br></h6>
+                    <h4><b>Bolulo:</b></h4>
+                    <h6>Bulbine narcissifolia occurs from the far eastern regions of the Western Cape, through the Eastern Cape, KwaZulu-Natal, Lesotho, Free State, North-West, Gauteng, Limpopo, Botswana and further north to Ethiopia. It favours grassland and frequently forms small to large colonies, especially in overgrazed areas.</br></br></h6>
+                    <h4><b>Ts'ebeliso</b></h4>
+                    <h6>.</br></br></h6>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

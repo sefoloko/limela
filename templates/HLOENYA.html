@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <title>SEPHETHO SA SETLAMA-TLAMA</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .border img {
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+		
+    </style>
+</head>
+
+<body background="{{url_for('static',filename = 'images/Back.jpg')}}">
+
+
+
+    <div>
+        <h1 style="text-align:center;font-size:4rem">MOLEMO LE MOSEBETSI OE SEMELA SENA</h1>
+    </div>
+
+   <br>
+   <br>
+
+
+    <div class="container my-2">
+        <div class="row mb-5">
+
+            <div class="col-sm" style="margin-bottom: 23px;">
+                <span class="border border-primary">
+                    <img src="{{url_for('static',filename = 'images/B.JPG' )}}" alt="User Image" style="width:500px;height:500px;">
+                    
+
+                </span>
+            </div>
+
+            <div class="col-sm">
+
+                <div>
+                    <h1 style="padding: 15px; background-color: rgb(15, 15, 15); color: white;"
+                        class="text-center mb-5 content-h1 rounded">
+                        {{pred_output}} </h1>
+                </div>
+                <div class="details">
+					
+					<h4><b>Botanic name: </b> </h4>
+                    <h6>Dicoma anomala Sond. (Asteraceae)
+                        </br></br>
+                        </h6>
+                     </h6>
+                    <h4><b>English name:</b></h4>
+                    <h6>fever bush, stomach bush.</br></br></h6>
+                    <h4><b>Ts'ebeliso ea sesotho:</b></h4>
+                    <h6>General body pains, diarrhoea, colic, rheumatism and fevers </br></br></h6>
+                    <h4><b>Mokhoa t'sebeliso:</b></h4>
+                    <h6>Tubular roots.Add powder to water.</br></br></h6>
+                    <h4><b>Tlhaloso:</b></h4>
+                    <h6>Dicoma anomala is a prostrate, decumbent or erect perennial herb with an underground tuber. Few to many erect stems arise from a woody rootstock. Stems are thinly covered with hairs. Leaves are simple, alternate, stalkless, linear or narrowly lanceolate, the upper surface glabrous, the lower surface white-hairy. Flower heads are terminal, solitary or in small groups and have stiff, narrow, sharply-pointed bracts and slender, white, mauve, purple or pink tubular florets. The pappus consists of numerous barbellate bristles. Flowering occurs from November to July, with peak flowering in February and March.</br></br></h6>
+                    <h4><b>Bolulo:</b></h4>
+                    <h6>Dicoma anomala is widely distributed in sub-Saharan Africa, resulting in pronounced morphological variation. It grows in the summer-rainfall areas and occurs in stony grasslands, hillsides or flat grassland and in savanna, on doleritic or sandy soils south of the Sahara, at altitudes ranging from 165 to 2 075 m. In South Africa it is widely distributed in Limpopo, North-West, Gauteng, Mpumalanga, Free State, Northern Cape and KwaZulu-Natal. It does not occur in the winter-rainfall areas of the Western Cape. In KwaZulu-Natal it was mainly recorded from the Tugela Basin, on sandy soils.</br></br></h6>
+                    
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <title>SEPHETHO SA SETLAMA-TLAMA</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .border img {
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+		
+    </style>
+</head>
+
+<body background="{{url_for('static',filename = 'images/Back.jpg')}}">
+
+
+
+    <div>
+        <h1 style="text-align:center;font-size:4rem">MOLEMO LE MOSETSI OA SEMELA SENA</h1>
+    </div>
+
+   <br>
+   <br>
+
+
+    <div class="container my-2">
+        <div class="row mb-5">
+
+            <div class="col-sm" style="margin-bottom: 23px;">
+                <span class="border border-primary">
+                    <img src="{{url_for('static',filename = 'images/F.jpg' )}}" alt="User Image" style="width:500px;height:500px;">
+                    
+
+                </span>
+            </div>
+
+            <div class="col-sm">
+
+                <div>
+                    <h1 style="padding: 15px; background-color: rgb(15, 15, 15); color: white;"
+                        class="text-center mb-5 content-h1 rounded">
+                        {{pred_output}} </h1>
+                </div>
+                <div class="details">
+					
+					<h4><b>Botanic name: </b> </h4>
+                    <h6>
+					Brunsvigia radulosa Herb. (Amaryllidaceae
+					<br>
+                     </h6>
+                    <h4><b>English name:</b></h4>
+                    <h6>candelabra flower.</br></br></h6>
+                    <h4><b>Ts'ebeliso ea sesotho:</b></h4>
+                    <h6>Boosts the immune system.</br></br></h6>
+                    <h4><b>Mokhoa t'sebeliso</b></h4>
+                    <h6>Root;bulb.Crush & add water</br></br></h6>
+                    <h4><b>Tlhaloso:</b></h4>
+                    <h6>Brunsvigia radulosa is a bulbous herb with a large bulb, 60-100 mm in diameter, and with a short neck. The bulb is covered with hard brown tunics. There are 4-6 leaves, usually present at or after flowering, spreading flat on the ground, large, up to 500 x 200 mm, very thick and tough with rough surfaces and margin. The species name refers to this roughness.</br></br></h6>
+                    <h4><b>Bolulo:</b></h4>
+                    <h6>The inflorescence consists of up to 75 flowers, individually pedicelled (stalked), on a thick, flattened and solid peduncle (inflorescence stalk), forming a large umbel. Pedicels lengthen after fertilization until the seeds ripen. The perianth tube of the flower is short, up to 5 mm long; segments deep pink to pale purple, 40-60 x ± 8 mm. The stamens curve upwards, and are about the same length as the perianth. The capsule is papery, about 15 mm long. At maturity the inflorescence detaches from the peduncle and becomes an excellent dispersal mechanism as it tumbles across the ground in the wind. The capsules split or break open and release the fleshy seeds over long distances.</br></br></h6>
+                    
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
